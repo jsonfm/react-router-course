@@ -15,7 +15,7 @@ export const BlogPost = () => {
         return undefined;
     }
 
-    const canDelete = auth.user?.role==="admin" || auth.user.username === post.author;
+    const canDelete = auth.user?.role==="admin" || auth.user?.username === post.author;
 
     return(
         <div style={{margin: "2rem 0"}}>
