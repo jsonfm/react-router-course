@@ -1,0 +1,7 @@
+.nav-is-active {
+    color: rgb(255, 40, 83);
+}
+
+.nav-is-disabled {
+    color: white;
+}
